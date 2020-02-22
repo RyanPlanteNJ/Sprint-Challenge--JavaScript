@@ -20,11 +20,11 @@ function add(num1, num2) {
   return num1 + num2;
 }
 
-function multiply(num1,num2) {
+function multiply(num1, num2) {
   return num1 * num2;
 }
 
-function greeting(first,last) {
+function greeting(first, last) {
   return `Hello ${first} ${last}, nice to meet you`;
 }
 
@@ -32,9 +32,9 @@ function greeting(first,last) {
 // console.log(consume(2, 2, add)); // 4
 // console.log(consume(10, 16, multiply)); // 160
 // console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
-  console.log(consume(2,2,add));
-  console.log(consume(10,16,multiply));
-  console.log(consume("Mary","Poppions",greeting));
+  console.log(consume(2, 2, add));
+  console.log(consume(10, 16, multiply));
+  console.log(consume("Mary", "Poppions", greeting));
 
 // ==== Closures ====
 
