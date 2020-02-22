@@ -40,7 +40,7 @@ function greeting(first,last) {
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation:
+// Explanation: Because when calling a variable, it seeks it out outside of its own scope. You can look outward, but you can't look inward for a variable. As stated in the material.
 
 
 const external = "I'm outside the function";
